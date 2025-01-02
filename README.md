@@ -20,18 +20,18 @@ PosTech
 │   ├── main  
 │   │   ├── java  
 │   │   │   └── br.com.fiap.pet_tech  
-│   │   │       ├── dto  
-│   │   │       ├── entity  
-│   │   │       ├── service  
-│   │   │       └── controller  
-│   │   │           └── exception
+│   │   │        ├── dto  
+│   │   │        ├── entity  
+│   │   │        ├── service  
+│   │   │        └── controller  
+│   │   │            └── exception
 │   │   └── resources  
-│   │        ├── application.properties  
+│   │         ├── application.properties  
 │   │        └── application-dev.properties  
 │   └── test
-│ 	└── java 
-│ 	    └── br.com.fiap.pet_tech.pet_tech
-│      		└── PetTechApplicationTests
+│  	└── java 
+│  	    └── br.com.fiap.pet_tech.pet_tech
+│       	└── PetTechApplicationTests
 └── README.md  
 
 
