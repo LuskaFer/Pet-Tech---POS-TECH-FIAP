@@ -1,4 +1,4 @@
-#Pet Tech | Gestão de Produtos 
+## Pet Tech | Gestão de Produtos 
 
 Esse projeto é um sistema de gestão de produtos de uma pet shop desenvolvido em Java com Spring Boot. Ele permite adicionar e gerenciar produto com seus respectivos "id's", nome, preço, descrição e url da imagem.
 
@@ -28,6 +28,10 @@ PosTech
 │   │   └── resources  
 │   │       ├── application.properties  
 │   │       └── application-dev.properties  
+|   └── test
+|	└── java 
+|	    └── br.com.fiap.pet_tech.pet_tech
+|     		└── PetTechApplicationTests
 └── README.md  
 
 - **`dto`**: Contém as classes de Data Transfer Objects.
