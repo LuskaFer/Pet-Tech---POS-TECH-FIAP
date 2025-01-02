@@ -25,14 +25,6 @@ PosTech
 │   │   │       ├── service  
 │   │   │       └── controller  
 │   │   │           └── exception  
-│   │   └── resources  
-│   │        ├── application.properties  
-│   │        └── application-dev.properties  
-│   └── test
-│ 	└── java 
-│ 	    └── br.com.fiap.pet_tech.pet_tech
-│      		└── PetTechApplicationTests
-└── README.md  
 
 - **`dto`**: Contém as classes de Data Transfer Objects.
 - **`entity`**: Contém as entidades mapeadas para o banco de dados.
