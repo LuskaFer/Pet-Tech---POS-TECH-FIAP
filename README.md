@@ -41,13 +41,46 @@ PosTech
 - **Java 17** ou superior
 - **Maven**
 
+## Testando com Insomnia:
+- **Use o software "Insomnia"** link-> https://insomnia.rest/download
+- **Use o padrão "http://localhost:8080/"  descrito conforme o metodo necessário abaixo:
 
-### Produto
 
-1. `GET /produtos` - Lista todos os produtos.
-2. `POST /produtos` - Cria um novo produtos.
-3. `GET /produtos/{id}` - Lista um produtos pelo ID.
-4. `PUT /produtos/{id}` - Atualiza um produtos.
+### Produtos CRUD
+
+
+1. `POST /produtos` - Cria um novo produto. 
+exemplo: "http://localhost:8080/produtos"
+{
+	"id": "*",
+	"nome": "*",
+	"descricao": "*",
+	"preco": *,
+	"urlDaImagem": "*"
+}
+**(** Adicione os parametros conforme necessário para a criação do produto)**
+
+  
+2. `GET /produtos` - Lista todos os produtos.
+exemplo: http://localhost:8080/produtos/
+   
+3. `GET /produtos/{id}` - Lista um produto pelo ID.
+exemplo: http://localhost:8080/produtos/"*"
+**(** Adicione id conforme necessário para encontrar o produto)**
+
+4. `PUT /produtos/{id}` - Atualiza um produto.
+exemplo: http://localhost:8080/produtos/"*"
+{
+	"id": "*",
+	"nome": "*",
+	"descricao": "*",
+	"preco": *,
+	"urlDaImagem": "*"
+}
+**(** Adicione os parametros conforme necessário para a alteração do produto)**
+  
 5. `DELETE /produtos/{id}` - Remove um produtos.
+exemplo: http://localhost:8080/produtos/
+**(** Adicione id conforme necessário para deletar o produto)**
 
 
