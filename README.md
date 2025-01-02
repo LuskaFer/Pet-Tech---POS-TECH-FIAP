@@ -15,7 +15,8 @@ Esse projeto é um sistema de gestão de produtos de uma pet shop desenvolvido e
 
 
 ## 📦 Estrutura do Projeto
-PosTech  
+
+Pet-Tech 
 ├── src  
 │   ├── main  
 │   │   ├── java  
