@@ -1,4 +1,4 @@
-# Nome
+# Gestão de Produtos | Pet Tech
 
 Esse projeto é um sistema de gestão de produtos de uma pet shop desenvolvido em Java com Spring Boot. Ele permite adicionar e gerenciar produto com seus respectivos "id's", nome, preço, descrição e url da imagem.
 
