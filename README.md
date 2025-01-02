@@ -26,12 +26,12 @@ PosTech
 │   │   │       └── controller  
 │   │   │           └── exception  
 │   │   └── resources  
-│   │       ├── application.properties  
-│   │       └── application-dev.properties  
-|   └── test
-|	└── java 
-|	    └── br.com.fiap.pet_tech.pet_tech
-|     		└── PetTechApplicationTests
+│   │        ├── application.properties  
+│   │        └── application-dev.properties  
+│   └── test
+│ 	└── java 
+│ 	    └── br.com.fiap.pet_tech.pet_tech
+│      		└── PetTechApplicationTests
 └── README.md  
 
 - **`dto`**: Contém as classes de Data Transfer Objects.
